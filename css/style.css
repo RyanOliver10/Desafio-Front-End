@@ -143,7 +143,44 @@ img {
         display: block;
     }
 
+    .content{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .content1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+    }
+
+    img{
+        width: 70%;
+        height: 70%;
+    }
+
+    p{
+        font-size: 2.5vw;
+    }
+
     .btnPrincipal button{
         padding: 12px 30px;
+    }
+
+    .btnPrincipal{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        padding: 0;
     }
 }
